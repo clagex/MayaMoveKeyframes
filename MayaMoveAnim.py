@@ -13,9 +13,8 @@ def moveTimeData():
             if (numKeyframes > 0):
                 times = cmds.keyframe(attribute, query=True, index=(0,numKeyframes), timeChange=True)
                 cmds.keyframe(edit=True, relative=True, timeChange=-times[0])
-                newTimes = cmds.keyframe(attribute, query=True, index=(0,numKeyframes), timeChange=True)
 
-
+                
 def selectAllJoints():
     root = cmds.ls(selection=True)[0]
     joints = cmds.listRelatives(root, ad=True, type='joint')
