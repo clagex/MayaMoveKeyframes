@@ -8,7 +8,7 @@ When running the script, change the `batchConvert()` at line 50 to `singleConver
 
 #### Batch Convert
 In the script, the path is set from the project root directory.<br>
-All the fbx files waiting for converting is in `rootDirectory/assets/input`<br>
-The converted fbx will be written to `rootDirectory/assets/output` with the same name<br>
+All the fbx files waiting for converting is in `rootDirectory/assets/inputs`<br>
+The converted fbx will be written to `rootDirectory/assets/outputs` with the same name<br>
 
 After the files are in the folder, can just run the script!
